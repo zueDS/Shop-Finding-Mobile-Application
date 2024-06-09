@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#ffff"
+        >
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:src="@drawable/asset1"
+            android:layout_marginTop="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VeLzon Register"
+            android:textColor="#2d66dc"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name in full"
+            android:textColor="#2d66dc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/forget"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/edz1"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="#2d66dc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/forget"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/edz3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact number"
+            android:textColor="#2d66dc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/forget"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/edz4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your password"
+            android:textColor="#2d66dc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/forget"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:id="@+id/edz5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm password"
+            android:textColor="#2d66dc"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:background="@drawable/forget"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:inputType="textPassword"
+            android:id="@+id/edz6"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="Register"
+            android:textSize="18dp"
+            android:id="@+id/btnregisterz"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account? Sign Up"
+            android:textColor="#2d66dc"
+            android:textStyle="bold"
+            android:id="@+id/loadlogz"
+            android:textSize="18dp"
+            android:layout_marginTop="15dp"/>
+
+    </LinearLayout>
+</ScrollView>

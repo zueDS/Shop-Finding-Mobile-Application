@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/my_border"
+        android:layout_margin="10dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220px"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="200px"
+                    android:id="@+id/loadingimgz"
+                    android:layout_height="200px"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    ></ImageView>
+
+            </LinearLayout>
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                ></Space>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                >
+                <TextView
+
+                    android:id="@+id/candidate_name"
+                    android:text="Election Name"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    ></Space>
+
+                <TextView
+
+                    android:id="@+id/candidate_des"
+                    android:text="Election Name"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="100px"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
